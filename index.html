@@ -37,8 +37,11 @@
   transition: 0.5s;
 }
 
-.button:hover span {
-  padding-right: 25px;
+.button.social.left:hover span {
+  padding-right: 40px;
+}
+.button.social.right:hover span {
+  padding-left: 40px;
 }
 
 .button:hover span:after {
@@ -46,13 +49,24 @@
 }
 
 .button.social span:after {
-  font-family: Roboto;
-  font-size: 12px;
+  font-family: Consolas;
+  font-size: 14px;
   padding: 10px;
   text-align: left;
   position: absolute;
   top: 5px;
-  left: 18px; 
+}
+
+.button.social.left span:after {
+  position: absolute;
+  text-align: left;
+  left: 18px;
+}
+
+.button.social.right span:after {
+  position: absolute;
+  text-align: right;
+  right: 18px;
 }
 
 .button.social.github span:after {
@@ -65,19 +79,19 @@
   content:'twitter';
 }
 .button.social.linkedin span:after {
-  content:'linkedin';
+  content:'linked';
 }
 </style>
 </head>
 <body class="w3-light-grey">
 
 <div class="w3-container w3-display-middle w3-center w3-text-indigo">
-  <h1 style="font-family:Georgia;">Ian A Dalton</h1>
+  <h1 style="font-family:Cambria; font-weight:bold; letter-spacing:-1px;">Ian A Dalton</h1>
 
-  <a href="http://cv.ianad.me"><button class="button social resume w3-deep-purple w3-hover-light-grey w3-hover-text-indigo"><span><i class="fa fa-file-text-o"></i></span></button></a>
-  <a href="http://code.ianad.me"><button class="button social github w3-deep-purple w3-hover-light-grey w3-hover-text-indigo"><span><i class="fa fa-github"></i></span></button></a>
-  <a href="http://twitter.ianad.me"><button class="button social twitter w3-deep-purple w3-hover-light-grey w3-hover-text-indigo"><span><i class="fa fa-twitter"></i></span></button></a>
-  <a href="http://link.ianad.me"><button class="button social linkedin w3-deep-purple w3-hover-light-grey w3-hover-text-indigo"><span><i class="fa fa-linkedin"></i></span></button></a>
+  <a href="http://cv.ianad.me"><button class="button social left resume w3-deep-purple w3-hover-light-grey w3-hover-text-deep-orange"><span><i class="fa fa-file-text-o"></i></span></button></a>
+  <a href="http://code.ianad.me"><button class="button social left github w3-deep-purple w3-hover-light-grey w3-hover-text-deep-orange"><span><i class="fa fa-github"></i></span></button></a>
+  <a href="http://twitter.ianad.me"><button class="button social right twitter w3-deep-purple w3-hover-light-grey w3-hover-text-deep-orange"><span><i class="fa fa-twitter"></i></span></button></a>
+  <a href="http://link.ianad.me"><button class="button social right linkedin w3-deep-purple w3-hover-light-grey w3-hover-text-deep-orange"><span><i class="fa fa-linkedin"></i></span></button></a>
 
 </div>
 </body>
