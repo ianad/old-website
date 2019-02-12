@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 body {
     background-image: url("../graphics/IMG_20190109_172235.jpg");
@@ -7,8 +7,8 @@ body {
   }
   
 h1 {
-    font-size: 400%;
-    font-family: Montserrat;
+    font-size: 400%!important;
+    font-family: Montserrat!important;
   }
   
 .button {
@@ -54,7 +54,7 @@ h1 {
 }
   
 .button.social span:after {
-    font-family: Consolas;
+    font-family: Consolas!important;
     font-size: 16px;
     padding: 12px;
     padding-top: 15px;
