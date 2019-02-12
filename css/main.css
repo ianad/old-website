@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+    background-image: url("../graphics/IMG_20190109_172235.jpg");
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+h1 {
+    font-size: 400%;
+    font-family: Montserrat;
+  }
+  
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 36px;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    color:#000!important;
+    background-color:#F0EAD6!important
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.1s
+}
+  
+.button span:after {
+    opacity: 0;
+    transition: 0.2s;
+}
+  
+.button:hover span {
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    transition: 0.5s;
+}
+  
+.button.social span:after {
+    font-family: Consolas;
+    font-size: 16px;
+    padding: 12px;
+    padding-top: 15px;
+    text-align: left;
+    position: absolute;
+    top: 5px;
+}
+  
+.button.social.left span:after {
+    position: absolute;
+    text-align: left;
+    left: 25px;
+}
+.button.social.left:hover span {
+    padding-right: 40px;
+}
+
+.button.social.right span:after {
+    position: absolute;
+    text-align: right;
+    right: 25px;
+}
+
+.button.social.right:hover span {
+    padding-left: 40px;
+}
+
+.button.social.github span:after {
+    content:'github';
+}
+
+.button.social.resume span:after {
+    content:'resumé';
+}
+
+.button.social.twitter span:after {
+    content:'twitter';
+}
+
+.button.social.linkedin span:after {
+    content:'linked';
+}
+
+.w3-hover-2019-sweet-corn:hover{
+    color:#000!important;
+    background-color:#F0EAD6!important
+}
