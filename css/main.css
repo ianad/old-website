@@ -3,9 +3,9 @@
 body {
     background-image: url("../graphics/IMG_20190109_172235.jpg");
     background-attachment: fixed;
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    width: 100vw;
 }
 
 .name {
