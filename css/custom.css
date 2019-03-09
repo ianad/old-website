@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body {
+    background-image: url("../graphics/IMG_20190109_172235.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+}
+
+.linkplate { 
+    color: #000;
+    background-color: #F0EAD6;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 33%;
+    opacity: 0.75!important;
+}
+
+.linkplate:hover { opacity: 1.00!important;}
+
+.name {
+    font-size: 200%;
+    font-family: Montserrat;
+    text-align: center;
+    margin-top: 5%
+}
+
+.social.row {
+    margin-bottom:5%;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.resume, .github,
+.twitter, .linkedin {
+    color:#fff!important;
+    background-color:#343148!important;
+    border: none!important;
+    /* border-color:#343148!important; */
+    font-size: 25px!important;
+    height: 200%!important;
+}
+
+.resume:hover, .github:hover, .twitter:hover, .linkedin:hover {
+    color:#000!important;
+    background-color:#F0EAD6!important;
+    /* border-color: #000!important; */
+}
+
+.linkplate:hover, .linkplate:hover::after,
+.resume:hover,
+.github:hover,
+.twitter:hover,
+.linkedin:hover {
+    transition-duration: 0.5s!important;
+}
